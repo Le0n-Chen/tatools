@@ -2,7 +2,7 @@
 Export/Import translation
 这个脚本用来方便的进行internationalization操作
 
-# 资源JS的规范：
+# 资源JS规范：
 
 ```
 // i18n/zh-CN.js
@@ -12,7 +12,7 @@ const kv = {
 export {kv}；
 ```
 
-# 待翻译/待引入的规范：
+# 待翻译/待引入JSON规范：
 
 ```
 //i18nJSON/en_US.json
@@ -24,7 +24,7 @@ export {kv}；
 }
 ```
 
-# tatools配置文件规范：
+# tatools.json配置文件规范：
 
 ```
 {
@@ -38,4 +38,18 @@ export {kv}；
         }
     }
 }
+```
+
+# 如何使用这个工具
+导出未翻译字符串
+```
+tatool i18n export
+```
+全量模式导入翻译文件
+```
+tatool i18n import -g
+```
+增量模式导入翻译文件
+```
+tatool i18n import -i
 ```
