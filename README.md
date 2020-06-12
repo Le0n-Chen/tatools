@@ -1,5 +1,5 @@
 # tatools
-##i18n 模块
+## i18n 模块
 Export/Import translation
 这个脚本用来方便的进行internationalization操作
 
