@@ -1,5 +1,5 @@
 {
-  "name": "tatools-i18n",
+  "name": "tatools",
   "version": "0.1.0",
   "description": "",
   "main": "index.mjs",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeonCF/lctools-i18n.git"
+    "url": "git+https://github.com/Le0n-Chen/tatools.git"
   },
   "author": "TA Team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LeonCF/lctools-i18n/issues"
+    "url": "https://github.com/Le0n-Chen/tatools/issues"
   },
-  "homepage": "https://github.com/LeonCF/lctools-i18n#readme",
+  "homepage": "https://github.com/Le0n-Chen/tatools/#readme",
   "dependencies": {
     "commander": "^5.1.0",
     "eslint-config-airbnb-base": "^14.1.0"
